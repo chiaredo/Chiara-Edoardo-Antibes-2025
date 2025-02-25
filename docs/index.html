@@ -6,61 +6,76 @@
   <title>Dettagli Evento</title>
   <style>
     body {
-      font-family: Arial, sans-serif;
-      line-height: 1.6;
+      font-family: 'Arial', sans-serif;
+      line-height: 1.8;
       margin: 20px;
+      background-color: #f8f8f8;
+      color: #333;
+      text-align: center;
     }
     h1, h2, h3 {
-      color: #333;
+      color: #2c3e50;
     }
     p {
       margin: 10px 0;
     }
-    /* Opzionale: stile per l'immagine */
     .header-img {
       width: 100%;
       max-width: 600px;
       height: auto;
       display: block;
-      margin: 0 auto 20px auto;
+      margin: 20px auto;
+      border-radius: 10px;
+      box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+    }
+    .container {
+      max-width: 800px;
+      margin: auto;
+      background: white;
+      padding: 20px;
+      border-radius: 10px;
+      box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+    }
+    .highlight {
+      font-weight: bold;
+      color: #e74c3c;
     }
   </style>
 </head>
 <body>
-  <img src="IMG_0316.jpg" class="header-img">
-  <h1>Accomodation</h1>
-  <p>408 Boulevard des Termes, 06210, Manelieu-la-Napule, Francia.</p>
-  <p>Soggiornaeremo tutti insimee in una splendida villa con vista mare. Non dovete preoccuparvi di nulla se non di portare voi stessi e i vestiti per tre giorni. Per chi guida, c’è spazio sufficiente per parcheggiare comodamente. Dall’arrivo alla partenza, potete tranquillamente dimenticare di usare la macchina.</p>
+  <div class="container">
+    <img src="IMG_0316.jpg" class="header-img">
+    
+    <h1>Accommodation</h1>
+    <p><strong>Indirizzo:</strong> 408 Boulevard des Termes, 06210, Mandelieu-la-Napoule, Francia.</p>
+    <p>Alloggeremo tutti insieme in una splendida villa con vista mare. Non dovete preoccuparvi di nulla, se non di portare voi stessi e gli abiti per tre giorni di festa! Per chi arriva in auto, c’è spazio sufficiente per parcheggiare comodamente. Una volta arrivati, potrete tranquillamente dimenticarvi della macchina.</p>
 
-  <h1>Reception</h1>
-  <p>Il nostro matrimonio civile si terrà presso il comune di Antibes (CR Masséna, Antibes), sabato alle 11:15 circa. Lo spostamento sarà organizzato da noi, con navette per tutti dalla villa.</p>
+    <h1>Reception</h1>
+    <p>Il nostro matrimonio civile si terrà presso il <strong>Comune di Antibes</strong> (CR Masséna, Antibes) sabato alle <span class="highlight">11:15</span>. Abbiamo organizzato il trasporto per tutti con navette che partiranno dalla villa.</p>
 
-  <h1>RSVP</h1>
-  <p>Entro il XX/XX/XX per aiutarci nell’organizzazione!</p>
-  <p>Un aiuto per il soggiorno a 5 stelle per Cesare e Babette durante la nostra luna di miele!</p>
-  <p>
-    IBAN: IT45I0301503200000006279137<br>
-    Intestatario: Chiara Rodella
-  </p>
+    <h1>RSVP</h1>
+    <p>Vi chiediamo di confermare la vostra presenza entro il <span class="highlight">XX/XX/XX</span> per aiutarci nell’organizzazione.</p>
+    <p>Se desiderate contribuire alla nostra luna di miele e al soggiorno a 5 stelle di Cesare e Babette:</p>
+    <p>
+      <strong>IBAN:</strong> IT45I0301503200000006279137<br>
+      <strong>Intestatario:</strong> Chiara Rodella
+    </p>
 
-  <h2>Venerdì</h2>
-  <h3>Pomeriggio</h3>
-  <p>Arrivo e sistemazione in Villa</p>
-  <h3>Sera</h3>
-  <p>Tramonto, musica e barbecue in villa per iniziare i festeggiamenti</p>
-
-  <h2>Sabato</h2>
-  <h3>Mattina</h3>
-  <p>Colazione in villa con pain au chocolat, croissants, succhi e caffè.</p>
-  <h3>Tarda Mattinata</h3>
-  <p>Partenza per il comune di Antibes in navettta per la celebrazione del matrimonio, seguita da un rinfresco e brindis</p>
-  <h3>Pomeriggio</h3>
-  <p>Relax a bordo piscina (non dimenticate il costume)</p>
-  <h3>Sera</h3>
-  <p>Aperitivo con musica, cena a seguire taglio della torta e after-partz</p>
-  <h3>Mattina</h3>
-  <p>Brunch tutti insieme in villa</p>
-  <h3>Primo Pomeriggio</h3>
-  <p>Partenza per il rientro a casa</p>
+    <h2>Programma</h2>
+    
+    <h3>Venerdì</h3>
+    <p><strong>Pomeriggio:</strong> Arrivo e sistemazione in villa.</p>
+    <p><strong>Sera:</strong> Tramonto, musica e barbecue in villa per dare inizio ai festeggiamenti.</p>
+    
+    <h3>Sabato</h3>
+    <p><strong>Mattina:</strong> Colazione in villa con pain au chocolat, croissant, succhi e caffè.</p>
+    <p><strong>Tarda mattinata:</strong> Partenza in navetta per il comune di Antibes per la cerimonia, seguita da un rinfresco e brindisi.</p>
+    <p><strong>Pomeriggio:</strong> Relax a bordo piscina (non dimenticate il costume!).</p>
+    <p><strong>Sera:</strong> Aperitivo con musica, cena, taglio della torta e after-party.</p>
+    
+    <h3>Domenica</h3>
+    <p><strong>Mattina:</strong> Brunch tutti insieme in villa.</p>
+    <p><strong>Primo pomeriggio:</strong> Saluti e partenza.</p>
+  </div>
 </body>
 </html>
